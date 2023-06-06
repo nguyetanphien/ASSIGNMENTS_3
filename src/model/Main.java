@@ -1,7 +1,5 @@
-import model.Student;
+package model;
 
-import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Scanner;
 
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
