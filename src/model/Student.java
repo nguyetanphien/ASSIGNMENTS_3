@@ -1,5 +1,7 @@
 package model;
 
+import java.util.Scanner;
+
 public class Student {
     private String id;
     private String name;
@@ -68,6 +70,24 @@ public class Student {
         this.mediumScore = mediumScore;
     }
 
+    public Student input() {
+        Scanner scanner = new Scanner(System.in);
 
+        System.out.printf("Nhap ID: ");
+        id = scanner.nextLine();
+        System.out.printf("Nhap Name: ");
+        name = scanner.nextLine();
+        System.out.printf("Nhap age: ");
+        age = scanner.nextInt();
+        scanner.nextLine();
+        System.out.printf("Nhap coure: ");
+        course = scanner.nextLine();
+        System.out.printf("Nhap address: ");
+        address = scanner.nextLine();
+        System.out.printf("Nhap medium score: ");
+        mediumScore = scanner.nextFloat();
+
+        return new Student(id, name, age, course, address, mediumScore);
+    }
 
 }
