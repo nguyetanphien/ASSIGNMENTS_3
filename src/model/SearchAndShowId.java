@@ -10,7 +10,6 @@ public class SearchAndShowId {
         Scanner scanner = new Scanner(System.in);
         String id2;
         System.out.printf("Enter search id: ");
-
         id2 = scanner.nextLine();
         for (int i = 0; i < arrayList.size(); i++)
             if (arrayList.get(i).getId().equalsIgnoreCase(id2))

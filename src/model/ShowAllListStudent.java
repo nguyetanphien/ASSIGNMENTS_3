@@ -13,7 +13,6 @@ public class ShowAllListStudent {
         System.out.println("Address: " + student.getAddress());
         System.out.println("medium: " + student.getMediumScore());
     }
-
     public void outputStudent(ArrayList<Student> arrayList) {
 
         for (int i = 0; i < arrayList.size(); i++) {

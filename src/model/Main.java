@@ -5,7 +5,6 @@ import java.util.Scanner;
 
 public class Main {
     ArrayList<Student> arrayList = new ArrayList<>();
-
     Scanner scanner = new Scanner(System.in);
 
     public void menu() {
@@ -40,12 +39,8 @@ public class Main {
                     break;
                 case 5:
                     SearchAndShowId searchAndShowId = new SearchAndShowId();
-
                     searchAndShowId.searchID5(arrayList);
-
-
                     break;
-
                 default:
                     System.exit(0);
             }
