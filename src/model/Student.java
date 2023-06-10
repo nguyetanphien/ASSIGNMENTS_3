@@ -73,18 +73,18 @@ public class Student {
     public Student input() {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.printf("Nhap ID: ");
+        System.out.printf("Enter ID: ");
         id = scanner.nextLine();
-        System.out.printf("Nhap Name: ");
+        System.out.printf("Enter Name: ");
         name = scanner.nextLine();
-        System.out.printf("Nhap age: ");
+        System.out.printf("Enter age: ");
         age = scanner.nextInt();
         scanner.nextLine();
-        System.out.printf("Nhap coure: ");
+        System.out.printf("Enter coure: ");
         course = scanner.nextLine();
-        System.out.printf("Nhap address: ");
+        System.out.printf("Enter address: ");
         address = scanner.nextLine();
-        System.out.printf("Nhap medium score: ");
+        System.out.printf("Enter medium score: ");
         mediumScore = scanner.nextFloat();
 
         return new Student(id, name, age, course, address, mediumScore);

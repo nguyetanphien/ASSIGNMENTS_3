@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class SearchAndShowId {
     public void searchID5(ArrayList<Student> arrayList) {
-        //  arrayList = new ArrayList<>();
+
         ShowAllListStudent showAllListStudent = new ShowAllListStudent();
         Scanner scanner = new Scanner(System.in);
         String id2;
