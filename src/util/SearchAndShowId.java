@@ -1,4 +1,6 @@
-package model;
+package util;
+
+import model.Student;
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -13,6 +15,6 @@ public class SearchAndShowId {
         id2 = scanner.nextLine();
         for (int i = 0; i < arrayList.size(); i++)
             if (arrayList.get(i).getId().equalsIgnoreCase(id2))
-                showAllListStudent.outputStudent2(arrayList.get(i));
+                showAllListStudent.outputStudent(arrayList.get(i));
     }
 }

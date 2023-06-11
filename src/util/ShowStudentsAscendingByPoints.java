@@ -1,4 +1,6 @@
-package model;
+package util;
+
+import model.Student;
 
 import java.util.ArrayList;
 
@@ -17,7 +19,7 @@ public class ShowStudentsAscendingByPoints extends Student {
         }
         for (int i = 0; i < arrayList.size(); i++) {
             System.out.println("Student :" + (i + 1));
-            showAllListStudent.outputStudent2(arrayList.get(i));
+            showAllListStudent.outputStudent(arrayList.get(i));
         }
     }
 }

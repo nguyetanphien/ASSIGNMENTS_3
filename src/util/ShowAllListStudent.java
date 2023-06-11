@@ -1,11 +1,13 @@
-package model;
+package util;
+
+import model.Student;
 
 import java.util.ArrayList;
 
 public class ShowAllListStudent {
-    Student student = new Student();
 
-    public void outputStudent2(Student student) {
+
+    public void outputStudent(Student student) {
         System.out.println("ID: " + student.getId());
         System.out.println("Name: " + student.getName());
         System.out.println("Age: " + student.getCourse());
@@ -13,11 +15,11 @@ public class ShowAllListStudent {
         System.out.println("Address: " + student.getAddress());
         System.out.println("medium: " + student.getMediumScore());
     }
-    public void outputStudent(ArrayList<Student> arrayList) {
+    public void outputListStudent(ArrayList<Student> arrayList) {
 
         for (int i = 0; i < arrayList.size(); i++) {
             System.out.println("Student: " + (i + 1));
-            outputStudent2(arrayList.get(i));
+            outputStudent(arrayList.get(i));
         }
     }
 

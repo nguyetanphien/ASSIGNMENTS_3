@@ -1,4 +1,8 @@
-package model;
+import model.*;
+import util.SearchAndShowId;
+import util.SearchCourseOfAllStudent;
+import util.ShowAllListStudent;
+import util.ShowStudentsAscendingByPoints;
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -27,7 +31,7 @@ public class Main {
                     break;
                 case 2:
                     ShowAllListStudent showAllListStudent1 = new ShowAllListStudent();
-                    showAllListStudent1.outputStudent(arrayList);
+                    showAllListStudent1.outputListStudent(arrayList);
                     break;
                 case 3:
                     ShowStudentsAscendingByPoints ascendingByPoints = new ShowStudentsAscendingByPoints();
